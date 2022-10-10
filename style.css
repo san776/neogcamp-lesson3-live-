@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
 
+:root {
+    --primary-color: #6d28d9;  
+
+}
+
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -17,4 +23,25 @@ body {
 .container-fluid{
     max-width: 600px;
     margin: auto;
+}
+
+/** links **/
+.link {
+     text-decoration: none;
+     padding: 0.5rem 1rem;
+}
+
+.primary-link {
+   
+    background-color: blue;
+    (--primary-color)
+    border-radius: 0.5rem;
+    color: white;
+}
+.secondary-link {
+    background-color: blue;
+    (--primary-color)
+    border-radius: 0.5rem;
+    color: white;
+  
 }
