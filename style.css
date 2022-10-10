@@ -3,3 +3,18 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+/** container **/
+
+.container {
+    padding-left: lrem;
+    padding-right: lrem;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+
+}
+.container-fluid{
+    max-width: 600px;
+    margin: auto;
+}
